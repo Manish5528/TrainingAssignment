@@ -1,0 +1,90 @@
+body{
+  background-color: #FAFAFA;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+}
+
+.container .image img{
+  height: 576px;
+  width: 576px;
+  margin: 72px 164px 72px 136px;
+  border: 20px solid #FFFFFF;
+  border-radius: 50%;
+}
+
+.container .main .companylogo{
+  height: 58px;
+  width: 55px;
+}
+
+.container .main .moto{
+  font-family: Roboto;
+  font-size: 40px;
+  color: #3E3E3E;
+  text-align: left;
+  font-weight: lighter;
+}
+
+.container .main .moto span{
+  color: #C8242F;
+}
+
+.container .main .login{
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: lighter;
+  height: 33px;
+}
+
+.container .main .box input{
+  margin-top: 24px;
+  height: 49px;
+  width: 429px;
+  padding-left: 15px;
+  border-radius: 4.5px;
+  border: 1px solid #ADADAD;
+  color: #ADADAD;
+  font-size: 15px;
+  font-family: Roboto;
+}
+
+
+.container .main .redirect{
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+  width: 440px;
+}
+.container .main .redirect .loginbtn button{
+  height: 45px;
+  width: 140px;
+  background-color: #C8242F;
+  color: #FFFFFF;
+  border-radius: 22.5px;
+  border: none;
+  font-size: 18px;
+
+}
+
+.container .main .redirect .forgotpassword{
+  padding-top: 12px;
+}
+.container .main .redirect .forgotpassword a{
+  text-decoration: none;
+  color: #ADADAD;
+  font-size: 15px;
+}
+
+.container .main .redirect .newuser{
+  margin-top: 24px;
+  color: #ADADAD;
+  font-size: 15px;
+}
+
+.container .main .redirect .newuser a{
+  color:#C8242F;
+ text-decoration: none; 
+}
