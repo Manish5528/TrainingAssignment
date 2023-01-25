@@ -1,5 +1,6 @@
 body{
   background-color: #FAFAFA;
+  opacity: 1;
 }
 
 .container{
@@ -78,13 +79,32 @@ body{
   font-size: 15px;
 }
 
-.container .main .redirect .newuser{
+.container .main  .newuser{
   margin-top: 24px;
   color: #ADADAD;
   font-size: 15px;
 }
 
-.container .main .redirect .newuser a{
+.container .main .newuser a{
   color:#C8242F;
  text-decoration: none; 
 }
+
+.container1{
+  padding-left: 29px;
+}
+
+.container1 .dashboardpage{
+  display: flex;
+  justify-content: space-between;
+}
+
+.container1 .dashboardpage .dash1{
+  display: flex;
+}
+
+
+
+  .container1 .dashboardpage .dash2{
+    display: flex;
+  }
