@@ -1,6 +1,8 @@
 body{
   background-color: #FAFAFA;
   opacity: 1;
+  margin: 0;
+  padding: 0;
 }
 
 .container{
@@ -92,19 +94,347 @@ body{
 
 .container1{
   padding-left: 29px;
+  background-color: #FFFFFF;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  
+  
 }
 
-.container1 .dashboardpage{
+.container1 .navbar{
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+.container1 .navbar .dash1{
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.container1 .navbar .dash1 .companylogo{
+  margin-left: 15px;
+}
+
+.container1 .navbar .dash1 .companylogo img{
+  height: 30px;
+  width: 142px;
+}
+
+.container1 .navbar .dash1 .search{
+  display: flex;
+  margin-left: 70px;
+  align-items: center;
+  justify-items: center;
+}
+
+.container1 .navbar .dash1 .search .searchfunction img{
+  height: 16px;
+  width: 16px;
+}
+
+.container1 .navbar .dash1 .search input{
+  border: none;
+  outline: none;
+  width: 100%;
+  background: transparent;
+  font-size: 16px;
+  margin-left: 10px;
+
+}
+
+
+  .container1 .navbar .dash2{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .container1 .navbar .dash2 .notification{
+    margin-right: 50px;
+    height: 20px;
+    width: 20px;
+  }
+
+  .container1 .navbar .dash2 .profile img{
+    border: none;
+    border-radius: 50%;
+    height: 44px;
+    width: 44px;
+    margin-right: 10px;
+    
+  }
+
+.container1 .navbar .dash2 .profilename{
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+.container1 .navbar .dash2 .profilename .uname{
+
+  font-size: 16px;
+  color: #000000;
+  margin-right: 15px;
+  font-weight: lighter;
+  
+}
+
+.container1 .navbar .dash2 .profilename .dropdown{
+  width: 6px;
+  height: 10px;
+  margin-right: 50px;
+  margin-bottom: 10px;
+}
+.container4{
+  display: flex;
+  overflow: hidden;
+  background-color: #FAFAFA;
+}
+.container2{
+  font-family: Roboto;
+  font-size: 16px;
+  background-color: #FFFFFF;
+  height: 100%;
+  width: 240px;
+  margin-bottom: -5000px;
+  padding-bottom: 5000px;
+  
+ 
+}
+
+.container2 .sidebar{
+ 
+  margin: 0;
+  padding: 0;
+  padding-top: 25px;
+  padding-left: 30px;
+  padding-right: 25px;
+ 
+}
+
+.container2 .sidebar .active{
+  background-color: #FFF3F4;
+  color: #C8242F;
+  padding: 14px 0 14px 17px;
+  
+}
+.container2 .sidebar .unactive{
+  color: #3E3E3E;
+  padding: 14px 0 14px 17px;
+}
+.container2 .sidebar a{
+  display: flex;
+  text-transform: capitalize;
+  width: 150px;
+}
+
+.container2 .sidebar a img{
+  height: 15px;
+  width: 15px;
+  padding-top: 2px;
+  padding-right: 12.5px;
+  color: #3E3E3E;
+}
+
+.container3{
+  padding-left: 48px;
+  padding-top: 15px;
+ 
+
+
+}
+
+.container3 .main .h1{
+  font-size: 30px;
+}
+.container3 .info{
+display: grid;
+grid-template-columns: auto auto auto auto auto;
+}
+.container3 .info .infoitems{
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  width: 200px;
+  height: 90px;
+  justify-content: space-around;
+  background-color: #FFFFFF;
+  margin-right: 30px;
+  padding: 0 10px 0 10px;
+
+}
+
+.container3 .info .infoitems img{
+  height: 33.33px;
+  width: 33.33px;
+
+}
+.container3 .info .infoitems .item_des h3{
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+
+}
+
+
+.container3 .info .infoitems .item_des p{
+  margin: 0;
+  padding: 0;
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+.container3 .dash_chart{
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+  margin-right: 30px;
+}
+
+.container3 .dash_chart .item1{
+  background-color: #FFFFFF;
+  padding: 24px 30px 29px 30px;
+}
+
+.container3 .dash_chart .item1 .heading{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px
+}
+
+.container3 .dash_chart .item1 .heading .left{
+  font-weight: lighter;
+  font-size: 22px;
+  color: #3E3E3E;
+
+}
+
+.container3 .dash_chart .item1 .heading .right a{
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 12px;
+  color: #ADADAD;
+   
+}
+
+.container3 .dash_chart .item1 .heading .right .active{
+  color:#C8242F;
+  padding-bottom: 15px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  width: fit-content;
+}
+
+.container3 .dash_chart .item2{
+  align-items: center;
+  justify-content: center;
+  background-color: #FFFFFF;
+  padding: 10px 10px 35px 29px;
+  margin-left: 40px;*/
+}
+.container3 .dash_chart .item2 h3{
+  color: #3E3E3E;
+  text-align: left;
+  font-size: 22px;
+  font-weight: lighter;
+}
+
+.container3 .dash_chart .item2 .country{
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  grid-column-gap: 45px;
+
+}
+
+.container3 .dash_chart .item2 .country .cou_item img{
+  height: 30px;
+}
+
+.container3 .dash_chart .item2 .country .cou_item span{
+  margin-top: 10px;
+  padding-left: 5px;
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.container3 .dash_table{
+  background-color: #FFFFFF;
+  margin-top: 30px;
+  margin-right: 30px;
+  padding: 23px 30px 23px 30px;
+  margin-bottom: 30px;
+}
+
+.container3 .dash_table .nav{
   display: flex;
   justify-content: space-between;
 }
 
-.container1 .dashboardpage .dash1{
-  display: flex;
+.container3 .dash_table .nav h3{
+  margin: 0;
+  padding: 0;
+  font-size: 23px;
 }
 
 
+.container3 .dash_table .nav a{
+  color: #C8242F;
+  text-decoration: none;
+  font-size: 12px;
+}
 
-  .container1 .dashboardpage .dash2{
-    display: flex;
-  }
+
+.container3 .dash_table .In_table table{
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 36px;
+  margin-left: 10px;
+}
+
+
+.container3 .dash_table .In_table table th{
+  text-align: left;
+  text-transform: uppercase;
+  color: #ADADAD;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  font-weight: lighter;
+  padding-bottom: 15px;
+}
+
+.container3 .dash_table .In_table table td{
+  padding-top:15px;
+  text-align: left;
+  padding-bottom: 15px;
+  color: #3E3E3E;
+  font-size: 15px;
+}
+
+
+.container3 .dash_table .In_table table tr{
+  border-bottom: 1px solid #E9E9E9;
+}
+
+.container3 .dash_table .In_table table tr .paid{
+  background-color: #EBFFEF;
+  color: #3CDD5F;
+  width: fit-content;
+  padding: 5px 10px 5px 10px;
+}
+
+.container3 .dash_table .In_table table tr .failed{
+  background-color: #FFF5F5;
+  color: #FF4545;
+  width: fit-content;
+  padding: 5px 10px 5px 10px;
+}
+
+.container3 .dash_table .In_table table tr.pending{
+  background-color:#F8F8F8 ; 
+  color: #BABABA;
+  width: fit-content;
+  padding: 5px 10px 5px 10px;
+}

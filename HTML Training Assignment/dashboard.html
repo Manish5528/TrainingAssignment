@@ -4,42 +4,255 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.google.com/css?family=Roboto' rel='stylesheet'>
     <title>Dashboard</title>
 </head>
 
 <body>
+    <div class="home">
     <div class="container1">
-        <nav class="dashboardpage">
-            <div class="dash1">
-                <div class="menubtn">
-                    <img src="./images/menu-bar.svg">
+            <nav class="navbar">
+                <div class="dash1">
+                    <div class="menubtn">
+                        <img src="./images/menu-bar.svg">
+                    </div>
+                    <div class="companylogo">
+                        <img src="./images/logo.svg">
+                    </div>
+                    <div class="search">
+                        <div class="searchfunction"><img src="./images/search-icon.svg"></div>
+                        <input type="search" name="serach" id="search" placeholder="Search" class="search">
+                    </div>
                 </div>
-                <div class="companylogo">
-                    <img src="./images/logo.svg">
+                <div class="dash2">
+                    <div class="notification">
+                        <img src="./images/notification-icon.svg">
+                    </div>
+                    <div class="profile">
+                        <img src="./images/profile.png">
+                    </div>
+                    <div class="profilename">
+                        <div class="uname">
+                            John doe
+                        </div>
+                        <div class="dropdown">
+                            <img src="./images/downward-arrow.svg">
+                        </div>
+                    </div>
                 </div>
-                <div class="search">
-                    <div class="searhfunction"><img src="./images/search-icon.svg"></div>
-                    <input type="search" name="serach" id="search" placeholder="Search" class="search">
-                </div>
-            </div>
-            <div class="dash2">
-                <div class="notification">
-                    <img src="./images/notification-icon.svg">
-                </div>
-                <div class="profile">
-                    <img src="./images/profile.png">
-                </div>
-                <div class="profilename">
-                    <p>John doe</p>
-                </div>
-                <div class="dropdown">
-                    <img src="./images/downward-arrow.svg">
-                </div>
-            </div>
 
 
-    </div>
-    </nav>
+
+            </nav>
+        </div>
+        <div class="container4">
+            <div class="container2">
+                <div class="sidebar">
+                    <a class="active">
+                        <img src="./images/dashboard-active.svg">
+                        <span>dashboard</span>
+                    </a>
+                    <a class="unactive">
+                        <img src="./images/graph-default.svg">
+                        <span>analysis</span>
+                    </a>
+                    <a class="unactive">
+                        <img src="./images/inbox-default.svg">
+                        <span>inbox</span>
+                    </a>
+                    <a class="unactive">
+                        <img src="./images/clock-default.svg">
+                        <span>history</span>
+                    </a>
+                    <a class="unactive">
+                        <img src="./images/user-default.svg">
+                        <span>users</span>
+                    </a>
+                    <a class="unactive">
+                        <img src="./images/maintenance-default.svg">
+                        <span>maintenance</span>
+                    </a>
+                    <a class="unactive">
+                        <img src="./images/setting-default.svg">
+                        <span>setting</span>
+
+                    </a>
+                </div>
+            </div>
+            <div class="container3">
+                <div class="main">
+                    <h1>Dashboard</h1>
+                </div>
+                <div class="info">
+                    <div class="infoitems">
+                        <img src="./images/star.svg">
+                        <div class="item_des">
+                            <h3>23,456</h3>
+                            <p>New Products</p>
+                        </div>
+                    </div>
+
+                    <div class="infoitems">
+                        <img src="./images/new-product.svg">
+                        <div class="item_des">
+                            <h3>2345</h3>
+                            <p>Added Products</p>
+                        </div>
+                    </div>
+
+                    <div class="infoitems">
+                        <img src="./images/total-product.svg">
+                        <div class="item_des">
+                            <h3>32456</h3>
+                            <p>Total Products</p>
+                        </div>
+                    </div>
+
+                    <div class="infoitems">
+                        <img src="./images/dollar-filled.svg">
+                        <div class="item_des">
+                            <h3>5678</h3>
+                            <p>Today's Sale</p>
+                        </div>
+                    </div>
+
+                    <div class="infoitems">
+                        <img src="./images/money-bag.svg">
+                        <div class="item_des">
+                            <h3>33,5342</h3>
+                            <p>Total Sale</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="dash_chart">
+                    <div class="item1">
+                        <div class="heading">
+                            <div class="left">Sale</div>
+                            <div class="right">
+                                <a href="" class="unactive">
+                                    Weekly
+                                </a>
+                                <a href="" class="unactive">
+                                    Monthly
+                                </a>
+                                <a href="" class="active">
+                                    Yearly
+                                </a>
+                            </div>
+                        </div>
+                        <img src="./images/data-graph.png">
+                    </div>
+                    <div class="item2">
+                        <h3>Sale by Country</h3>
+                        <div class="chart"><img src="./images/pie-chart.svg"></div>
+                        <div class="country">
+                            <div class="cou_item"><img src="./images/radio-checked-icon.svg"><span>United States of America</span></div>
+                            <div class="cou_item"><img src="./images/radio-checked-iconcopy.svg"><span>Canada</span></div>
+                            <div class="cou_item"><img src="./images/radio-checked-iconcopy2.svg"><span>Russia</span></div>
+                            <div class="cou_item"><img src="./images/radio-checked-iconcopy3.svg"><span>India</span></div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="dash_table">
+                        <div class="nav">
+                            <h3>Invoices</h3>
+                            <a href="View All"></a>
+                        </div>
+                        <div class="In_table">
+
+                            <table>
+                                <tr>
+                                    <th>Invoice</th>
+                                    <th>Company Name</th>
+                                    <th>Email</th>
+                                    <th>due date</th>
+                                    <th>status</th>
+                                    <th>amount</th>
+                                </tr>
+                                <tr>
+                                    <td>651535</td>
+                                    <td>Public Adjusting Firm</td>
+                                    <td>georgia.young@example.com</td>
+                                    <td>24 May, 2020</td>
+                                    <td><div class="paid">Paid</div></td>
+                                    <td>$47,800</td>
+                                </tr>
+                                <tr>
+                                    <td>558612</td>
+                                    <td>Other</td>
+                                    <td>jessica.handson@example.com</td>
+                                    <td>24 May, 2020</td>
+                                    <td><div class="paid">Paid</div></td>
+                                    <td>$98,000</td>
+                                </tr>
+                                <tr>
+                                    <td>558612</td>
+                                    <td>Vendor</td>
+                                    <td>alma.lawson@example.com</td>
+                                    <td>8 Sep, 2020</td>
+                                    <td><div class="paid">Paid</div></td>
+                                    <td>$20,000</td>
+                                </tr>
+                                <tr>
+                                    <td>558162</td>
+                                    <td>Property Managment Company</td>
+                                    <td>Kenzi.lawson@example.com</td>
+                                    <td>22 Oct, 2020</td>
+                                    <td><div class="paid">Paid</div></td>
+                                    <td>$10,570</td>
+                                </tr>
+                                <tr>
+                                    <td>651535</td>
+                                    <td>Subcontractor Company</td>
+                                    <td>jackson.graham@example.com</td>
+                                    <td>21 Feb, 2020</td>
+                                    <td><div class="failed">Failed</div></td>
+                                    <td>$10,200</td>
+                                </tr>
+                                <tr>
+                                    <td>651538</td>
+                                    <td>Mortgage Company</td>
+                                    <td>felica.reid@example.com</td>
+                                    <td>22 Oct, 2020</td>
+                                    <td><div class="pending">Pending</div></td>
+                                    <td>$12,760</td>
+                                </tr>
+                                <tr>
+                                    <td>487441</td>
+                                    <td>TPA</td>
+                                    <td>Dona.young@example.com</td>
+                                    <td>24 Sep, 2020</td>
+                                    <td><div class="paid">Paid</div></td>
+                                    <td>$17,800</td>
+                                </tr>
+                                <tr>
+                                    <td>651535</td>
+                                    <td>Fire Department</td>
+                                    <td>raj.garham@example.com</td>
+                                    <td>17 Oct, 2020</td>
+                                    <td><div class="failed">Failed</div></td>
+                                    <td>$28,800</td>
+                                </tr>
+                                <tr>
+                                    <td>449003</td>
+                                    <td>Insurance Carrier</td>
+                                    <td>curtid.weaver@example.com</td>
+                                    <td>21 Sep, 2020</td>
+                                    <td><div class="paid">Failed</div></td>
+                                    <td>$10,000</td>
+                                </tr>
+                            </table>
+                           
+                        
+                    </div>
+
+
+
+                </div>
+            </div>
+            
+        </div>
     </div>
 </body>
 
