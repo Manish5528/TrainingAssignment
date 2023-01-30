@@ -1,30 +1,158 @@
-body {
+ body {
   background-color: #FAFAFA;
-  opacity: 1;
-  margin: 0;
+   margin: 0;
   padding: 0;
+  font-family: Roboto;
 }
 
-.container {
-  display: flex;
-  align-items: center;
+ @media screen and (max-width:509px) {
+  .container{
+    
+    /* grid-template-columns: auto auto; */
+    padding-top:10px;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 200px;
+}
+.container .main{
+    width: 100%;
+    margin-left: 50px;
+}
+.container .image{
+    width: 500px;
+    
+}
+.container .image img{
+    height: 500px;
+    width: 500px;
+    border:20px solid #FFFFFF ;
+    border-radius: 50% ;
+    
+}
 }
 
-.container .image img {
-  height: 576px;
-  width: 576px;
-  margin: 72px 164px 72px 136px;
-  border: 20px solid #FFFFFF;
-  border-radius: 50%;
+ 
+
+
+@media (min-width:510px) and (max-width:991px) { /*   small devices */
+  .container{
+      display: grid;
+      padding-top:50px;
+      padding-bottom: 30px;
+      align-items: center;
+      justify-content: center;
+  }
+  .container .main{
+      width: 500px;
+      position: relative;
+  }
+  .container .image{
+      display: none;
+  }
+  .container{
+      position: relative;
+
+  }
+  .container::before{
+  background-image: url("../images/hero-image.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: fixed;
+      content: ' ';
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+  /* z-index: -100; */
+  background-repeat: no-repeat;
+  background-size: fill;
+  }
+
 }
 
-.container .main .companylogo img{
+@media (min-width:992px) and (max-width:1199px) { /*   medium devices */
+  .container{
+      display: grid;
+      grid-template-columns: auto auto;
+      padding-top:70px;
+      align-items: center;
+      justify-content: center;
+      grid-gap: 30px;
+  }
+  .container .main{
+      width: 500px;
+  }
+  .container .image{
+      width: 500px;
+  }
+  .container .image img{
+      height: 400px;
+      width: 400px;
+      border:20px solid #FFFFFF ;
+      border-radius: 50% ;
+      margin-left: 50px;
+  }
+}
+
+
+@media (min-width:992px) and (max-width:1199px) { /*   medium devices */
+  .container{
+      display: grid;
+      grid-template-columns: auto auto;
+      padding-top:70px;
+      align-items: center;
+      justify-content: center;
+      grid-gap: 100px;
+  }
+  .container .main{
+      width: 500px;
+  }
+  .container .image{
+      width: 500px;
+      
+  }
+  .container .image img{
+      height: 450px;
+      width: 450px;
+      border:20px solid #FFFFFF ;
+      border-radius: 50% ;
+      margin-left: 50px;
+  }
+}
+
+@media (min-width:1200px) { /*   large devices */
+  .container{
+      display: grid;
+      grid-template-columns: auto auto;
+      padding-top:70px;
+      align-items: center;
+      justify-content: center;
+      grid-gap: 200px;
+  }
+  .container .main{
+      width: 100%;
+  }
+  .container .image{
+      width: 500px;
+      
+  }
+  .container .image img{
+      height: 500px;
+      width: 500px;
+      border:20px solid #FFFFFF ;
+      border-radius: 50% ;
+      margin-left: 50px;
+  }
+}
+
+.container .main .companylogo {
   height: 58px;
-  width: 272px;
+  width: 55px;
 }
 
 .container .main .moto {
-  font-family: Roboto;
   font-size: 40px;
   color: #3E3E3E;
   text-align: left;
@@ -36,7 +164,6 @@ body {
 }
 
 .container .main .login {
-  font-family: Roboto;
   font-size: 25px;
   font-weight: lighter;
   height: 33px;
@@ -51,7 +178,6 @@ body {
   border: 1px solid #ADADAD;
   color: #ADADAD;
   font-size: 15px;
-  font-family: Roboto;
 }
 
 
@@ -92,5 +218,7 @@ body {
 .container .main .newuser a {
   color: #C8242F;
   text-decoration: none;
-}
+} 
+
+
 
