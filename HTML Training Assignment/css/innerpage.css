@@ -394,6 +394,7 @@ body{
     left:578px;
     background: #FFFFFF;
     padding: 0px 5px 0px 5px;
+    position: relative;
   }
   
   .inner .form .col2 .Username {
@@ -408,6 +409,7 @@ body{
     -moz-transition:0.2s ease all; 
     -webkit-transition:0.2s ease all;
     pointer-events: none;
+    
   }
 
   .inner .form .col2 input[type="password"] {
@@ -456,6 +458,7 @@ body{
     -moz-transition:0.2s ease all; 
     -webkit-transition:0.2s ease all;
     pointer-events: none;
+    position: absolute;
   }
   /* dropdown */
   .inner .form .col2 select{
@@ -585,7 +588,7 @@ body{
     font-size: 13px;
     color: #ADADAD;
     top: -7px;
-    left:388px;
+    left:450px;
     background: #FFFFFF;
     padding: 0px 5px 0px 5px;
   }
@@ -593,7 +596,7 @@ body{
     font-size: 13px;
     color: #ADADAD;
     top: -7px;
-    left:388px;
+    left:450px;
     background: #FFFFFF;
     padding: 0px 5px 0px 5px;
   }
@@ -605,7 +608,7 @@ body{
     padding: 15px;
     position: absolute;
     top: 1px;
-    left: 378px;
+    left: 440px;
     transition:0.2s ease all; 
     -moz-transition:0.2s ease all; 
     -webkit-transition:0.2s ease all;
@@ -616,7 +619,7 @@ body{
     border-style: dashed;
     font-size: 13px;
     top: -7px;
-    left:388px;
+    left:768px;
     background: #FFFFFF;
   }
   .inner .form .col3 .Username {
@@ -703,7 +706,7 @@ body{
     font-size: 13px;
     color: #ADADAD;
     top: -7px;
-    left:290px;
+    left:340px;
     background: #FFFFFF;
     padding: 0px 5px 0px 5px;
   }
@@ -711,7 +714,7 @@ body{
     font-size: 13px;
     color: #ADADAD;
     top: -7px;
-    left:290px;
+    left:340px;
     background: #FFFFFF;
     padding: 0px 5px 0px 5px;
   }
@@ -722,7 +725,7 @@ body{
     padding: 15px;
     position: absolute;
     top: 1px;
-    left: 280px;
+    left: 330px;
     transition:0.2s ease all; 
     -moz-transition:0.2s ease all; 
     -webkit-transition:0.2s ease all;
@@ -733,7 +736,7 @@ body{
     font-size: 13px;
     color: #ADADAD;
     top: -7px;
-    left:575px;
+    left:665px;
     background: #FFFFFF;
     padding: 0px 5px 0px 5px;
   }
@@ -741,7 +744,7 @@ body{
     font-size: 13px;
     color: #ADADAD;
     top: -7px;
-    left:575px;
+    left:665px;
     background: #FFFFFF;
     padding: 0px 5px 0px 5px;
   }
@@ -752,7 +755,7 @@ body{
     padding: 15px;
     position: absolute;
     top: 1px;
-    left: 565px;
+    left: 655px;
     transition:0.2s ease all; 
     -moz-transition:0.2s ease all; 
     -webkit-transition:0.2s ease all;
@@ -786,7 +789,7 @@ body{
     font-size: 13px;
     color: #ADADAD;
     top: -7px;
-    left:855px;
+    left:995px;
     background: #FFFFFF;
     padding: 0px 5px 0px 5px;
   }
@@ -794,7 +797,7 @@ body{
     font-size: 13px;
     color: #ADADAD;
     top: -7px;
-    left:855px;
+    left:995px;
     background: #FFFFFF;
     padding: 0px 5px 0px 5px;
   }
@@ -806,7 +809,7 @@ body{
     padding: 15px;
     position: absolute;
     top: 11;
-    left: 845px;
+    left: 990px;
     transition:0.2s ease all; 
     -moz-transition:0.2s ease all; 
     -webkit-transition:0.2s ease all;
